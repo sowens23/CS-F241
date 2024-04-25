@@ -69,4 +69,3 @@ Viewstate 4 contains access to a screen that enables a user to **Add Authorized 
   <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder4.jpg" width="25%"/> 
 </p>
 
-- 
