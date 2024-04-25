@@ -8,9 +8,9 @@
 ## Overview
 For Computer Hardware (Circuits) I designed a hardware/software package that can resemeble a rfid-smart deadbolt lock for a door that can provide the user with useful information such as the temperature, as well as adding additional RFID keys!
 
-<p float="left">
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic1.jpg" width="400" height="400"/>
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic2.jpg" width="400" height="400" /> 
+<p>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic1.jpg" width="40%"/>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic2.jpg" width="40%"/> 
 </p>
 
 ### Capabilities
@@ -32,10 +32,10 @@ These viewstates are;
 ### **Viewstate 1**
 Viewstate 1 contains **arm state** information. With a few different display variations depending on authorization attempts
 
-<p float="left">
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/1-1.jpg" width="200" height="200"/>
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/1-2.jpg" width="200" height="200" /> 
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/1-3.jpg" width="200" height="200" /> 
+<>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/1-1.jpg" width="20%"/>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/1-2.jpg" width="20%"/> 
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/1-3.jpg" width="20%"/> 
 </p>
 
 ### **Viewstate 2**
@@ -45,15 +45,15 @@ Viewstate 2 contains **Light** information. The intention was to also display Ti
 ### **Viewstate 3**
 Viewstate 3 contains **Temperature and Light** information. 
 
-<img src="https://github.com/sowens23/CS-F241/blob/main/media/3-1.jpg" width="200" height="200" p float="left" style="border:1px solid black"/>
+<img src="https://github.com/sowens23/CS-F241/blob/main/media/3-1.jpg" width="20%"/>
 
 ### **Viewstate 4**
 Viewstate 4 contains access to a screen that enables a user to **Add Authorized RFID**. It functions by first scanning an *authorized* badge, and then scanning an *unauthorized* badge to be added to a whitelist. 
 
-<p float="left" style="border:1px solid black">
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/4-1.jpg" width="200" height="200"/>
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/4-2.jpg" width="200" height="200" /> 
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/4-3.jpg" width="200" height="200" /> 
+<p>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/4-1.jpg" width="20%"/>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/4-2.jpg" width="20%"/> 
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/4-3.jpg" width="20%"/> 
 </p>
 
 ## Assembly and Development
@@ -62,9 +62,9 @@ Viewstate 4 contains access to a screen that enables a user to **Add Authorized 
 - The viewstate is only updated when the button is pressed. Otherwise, if the viewstate reads analog input, then this is redrawin every 100ms.
 - The RFID reader required me to solder a pin header onto it. This took three attempts
 
-<p float="left" style="border:1px solid black">
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder1.jpg" width="200" height="200"/>
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder2.jpg" width="200" height="200" /> 
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder3.jpg" width="200" height="200" /> 
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder4.jpg" width="200" height="200" /> 
+<p>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder1.jpg" width="20%"/>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder2.jpg" width="20%"/> 
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder3.jpg" width="20%"/> 
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder4.jpg" width="20%"/> 
 </p>
