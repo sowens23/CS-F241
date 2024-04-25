@@ -8,9 +8,13 @@
 ## Overview
 For Computer Hardware (Circuits) I designed a hardware/software package that can resemeble a rfid-smart deadbolt lock for a door that can provide the user with useful information such as the temperature, as well as adding additional RFID keys!
 
-![Full Arduino Project1]()
+<p float="left">
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic1.jpg" width="45%" />
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic2.jpg" width="45%" /> 
+</p>
 
-<img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic1.jpg" alt="drawing" width="200"/>
+
+<img src="" alt="drawing" width="500"/>
 
 ![Full Arduino Project2](https://github.com/sowens23/CS-F241/blob/main/media/fullpic2.jpg)
 
