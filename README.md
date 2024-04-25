@@ -9,8 +9,8 @@
 For Computer Hardware (Circuits) I designed a hardware/software package that can resemeble a rfid-smart deadbolt lock for a door that can provide the user with useful information such as the temperature, as well as adding additional RFID keys!
 
 <p float="left">
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic1.jpg" width="45%" />
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic2.jpg" width="45%" /> 
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic1.jpg" width="500" height="500"/>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic2.jpg" width="500" height="500" /> 
 </p>
 
 
