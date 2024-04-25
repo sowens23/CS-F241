@@ -40,7 +40,8 @@ Viewstate 1 contains **arm state** information. With a few different display var
 
 ### **Viewstate 2**
 Viewstate 2 contains **Light** information. The intention was to also display Time on this screen, but I did not foresee the need, and couldn't order a *Real-Time Clock(RTC)* in time.
-  - Common View: ![Viewstate 2-1](https://github.com/sowens23/CS-F241/blob/main/media/2-1.jpg)
+  
+<img src="https://github.com/sowens23/CS-F241/blob/main/media/2-3.jpg" width="40%"/> 
 
 ### **Viewstate 3**
 Viewstate 3 contains **Temperature and Light** information. 
@@ -60,12 +61,27 @@ Viewstate 4 contains access to a screen that enables a user to **Add Authorized 
 - The arduino project uses headers: "LiquidCrystal.h", "GHT.h", "SPI.h", and "MFRC522.h". 
 - The button is programmed using attachInterupt so that the lcd can update immediately as the button is pressed.
 - The viewstate is only updated when the button is pressed. Otherwise, if the viewstate reads analog input, then this is redrawin every 100ms.
-- The RFID reader required me to solder a pin header onto it. This took three attempts
+- The RFID reader required me to solder a pin header onto it. This took three attempts to get it to work correctly.
 
 <p float="left">
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder1.jpg" width="25%"/>
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder2.jpg" width="25%"/> 
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder3.jpg" width="25%"/> 
-  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder4.jpg" width="25%"/> 
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder1.jpg" width="20%"/>
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder2.jpg" width="20%"/> 
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder3.jpg" width="20%"/> 
+  <img src="https://github.com/sowens23/CS-F241/blob/main/media/solder4.jpg" width="20%"/> 
 </p>
 
+- The standard arduino loop cycles through the following:
+  - If button has been pressed, update drawn viewstate.
+  - If current viewstate contains analog data, update data.
+  - Viewstates 1-3: If authorized card is present, unlock servo for 3 seconds.
+    - Display "Access Denied" for unauthorized card scans.
+  - Viewstates 4: If authorized card is present, add next scanned rfid to whitelist
+
+- The serial output is formatted to display time stamps and pertinent information regarding the hardware.
+
+<img src="https://github.com/sowens23/CS-F241/blob/main/media/serialoutput.jpg" width="40%"/>
+
+## Closing Notes
+- I'm glad I had two arduino kits to use throughout the semester
+
+<img src="https://github.com/sowens23/CS-F241/blob/main/media/arduinokits.jpg" width="40%"/>
