@@ -10,7 +10,7 @@ For Computer Hardware (Circuits) I designed a hardware/software package that can
 
 ![Full Arduino Project1]()
 
-<img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic1.jpg" alt="drawing" width="50%"/>
+<img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic1.jpg" alt="drawing" width="200"/>
 
 ![Full Arduino Project2](https://github.com/sowens23/CS-F241/blob/main/media/fullpic2.jpg)
 
