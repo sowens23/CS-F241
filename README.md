@@ -24,13 +24,13 @@ For Computer Hardware (Circuits) I designed a hardware/software package that can
 
 ## Viewstates
 
-- The data is delivered to the user through an LCD1602 screen, which has four changeable menu *viewstates* which are displayed on the right side of the screen. The screens are selected by pressing a button.
-- Viewstates are updated in real-time with analog input, or scanned data from sensors.
+The data is delivered to the user through an LCD1602 screen, which has four changeable menu *viewstates* which are displayed on the right side of the screen. The screens are selected by pressing a button.
+Viewstates are updated in real-time with analog input, or scanned data from sensors.
 
 These viewstates are;
 
 ### **Viewstate 1**
-Viewstate 1 contains **arm state** information. With a few different display variations depending on authorization attempts
+- Viewstate 1 contains **arm state** information. With a few different display variations depending on authorization attempts
 
 <p float="left">
   <img src="https://github.com/sowens23/CS-F241/blob/main/media/1-1.jpg" width="25%"/>
@@ -39,19 +39,19 @@ Viewstate 1 contains **arm state** information. With a few different display var
 </p>
 
 ### **Viewstate 2**
-Viewstate 2 contains **Light** information. The intention was to also display Time on this screen, but I did not foresee the need, and couldn't order a *Real-Time Clock(RTC)* in time.
+- Viewstate 2 contains **Light** information. The intention was to also display Time on this screen, but I did not foresee the need, and couldn't order a *Real-Time Clock(RTC)* in time.
   
 <img src="https://github.com/sowens23/CS-F241/blob/main/media/2-3.jpg" width="40%"/> 
 
 ### **Viewstate 3**
-Viewstate 3 contains **Temperature and Light** information. 
+- Viewstate 3 contains **Temperature and Light** information. 
 
 <img src="https://github.com/sowens23/CS-F241/blob/main/media/3-1.jpg" width="40%"/>
 
 ### **Viewstate 4**
-Viewstate 4 contains access to a screen that enables a user to **Add Authorized RFID**. It functions by first scanning an *authorized* badge, and then scanning an *unauthorized* badge to be added to a whitelist. 
+- Viewstate 4 contains access to a screen that enables a user to **Add Authorized RFID**. It functions by first scanning an *authorized* badge, and then scanning an *unauthorized* badge to be added to a whitelist. 
 
-<p float="left">
+<p float="center">
   <img src="https://github.com/sowens23/CS-F241/blob/main/media/4-1.jpg" width="25%"/>
   <img src="https://github.com/sowens23/CS-F241/blob/main/media/4-2.jpg" width="25%"/> 
   <img src="https://github.com/sowens23/CS-F241/blob/main/media/4-3.jpg" width="25%"/> 
@@ -79,9 +79,14 @@ Viewstate 4 contains access to a screen that enables a user to **Add Authorized 
 
 - The serial output is formatted to display time stamps and pertinent information regarding the hardware.
 
-<img src="https://github.com/sowens23/CS-F241/blob/main/media/serialoutput.jpg" width="40%"/>
+<img src="https://github.com/sowens23/CS-F241/blob/main/media/serialoutput.png" width="40%"/>
 
 ## Closing Notes
-- I'm glad I had two arduino kits to use throughout the semester
+- I'm glad I had two arduino kits to use throughout the semester.
+- This project was really fun, I only wish I had more time throughout the semester to work on this project.
+- Future direction could include:
+  - External power for servo.
+  - 3-D printed door lock with deadbolt.
+  - An RTC for current time and date.
 
 <img src="https://github.com/sowens23/CS-F241/blob/main/media/arduinokits.jpg" width="40%"/>
