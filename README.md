@@ -41,7 +41,7 @@ These viewstates are;
 ### **Viewstate 2**
 - Viewstate 2 contains **Light** information. The intention was to also display Time on this screen, but I did not foresee the need, and couldn't order a *Real-Time Clock(RTC)* in time.
   
-<img src="https://github.com/sowens23/CS-F241/blob/main/media/2-3.jpg" width="40%"/> 
+<img src="https://github.com/sowens23/CS-F241/blob/main/media/2-1.jpg" width="40%"/> 
 
 ### **Viewstate 3**
 - Viewstate 3 contains **Temperature and Light** information. 
