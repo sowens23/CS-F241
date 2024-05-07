@@ -6,7 +6,7 @@
 - Purpose : This document is to serve as the final output of the final project, which was to design, code, and assemble an Arduino project from essentially scratch.
 
 ## Overview
-For Computer Hardware (Circuits) I designed a hardware/software package that can resemeble a rfid-smart deadbolt lock for a door that can provide the user with useful information such as the temperature, as well as adding additional RFID keys!
+For Computer Hardware (Circuits) I designed a hardware/software package that serves as an rfid-smart deadbolt lock for a door. Additinally we would imagine that this door lock would provide the user with useful information as well as a key management system.
 
 <p float="left">
   <img src="https://github.com/sowens23/CS-F241/blob/main/media/fullpic1.jpg" width="40%" />
