@@ -60,7 +60,7 @@ These viewstates are;
 ## Assembly and Development
 - The arduino project uses headers: "LiquidCrystal.h", "GHT.h", "SPI.h", and "MFRC522.h". 
 - The button is programmed using attachInterupt so that the lcd can update immediately as the button is pressed.
-- The viewstate is only updated when the button is pressed. Otherwise, if the viewstate reads analog input, then this is redrawin every 100ms.
+- The viewstate is only updated when the button is pressed. Otherwise, if the viewstate reads analog input, then this the data alone is drawn every 100ms.
 - The RFID reader required me to solder a pin header onto it. This took three attempts to get it to work correctly.
 
 <p float="left">
@@ -73,6 +73,7 @@ These viewstates are;
 - The standard arduino loop cycles through the following:
   - If button has been pressed, update drawn viewstate.
   - If current viewstate contains analog data, update data.
+  - If viewstate has changed, and has not been drawn yet. Draw viewstate.
   - Viewstates 1-3: If authorized card is present, unlock servo for 3 seconds.
     - Display "Access Denied" for unauthorized card scans.
   - Viewstates 4: If authorized card is present, add next scanned rfid to whitelist
@@ -82,8 +83,9 @@ These viewstates are;
 <img src="https://github.com/sowens23/CS-F241/blob/main/media/serialoutput.png" width="40%"/>
 
 ## Closing Notes
-- I'm glad I had two arduino kits to use throughout the semester.
+- I'm glad I had two arduino kits to use throughout the semester. This definitely made things easier when moving between working on my labs and our assignments.
 - This project was really fun, I only wish I had more time throughout the semester to work on this project.
+- I learned a lot about control software and a range of Arduino/Microcontroller features. 
 - Future direction could include:
   - External power for servo.
   - 3-D printed door lock with deadbolt.
